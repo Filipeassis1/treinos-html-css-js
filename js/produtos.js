@@ -12,6 +12,28 @@ const pacotes = [
         descricao: 'Viagem de 05 dias para o deserto do Atacama',
         imagem: '../assets/guarapari.webp'
 
+    },
+
+    {
+        id: 3,
+        titulo: 'Viagem para Arraial',
+        descricao: 'Viagem de 03 dias para Arraial do cabo',
+        imagem: '../assets/arraial.webp'
+
+    },
+    {
+        id: 4,
+        titulo: 'Pacote para Tokyo',
+        descricao: 'Viagem de 07 dias para Tokyo no Japão',
+        imagem: '../assets/tokyo.webp'
+
+    },
+    {
+        id: 5,
+        titulo: 'Viagem para Cabo Frio',
+        descricao: 'Viagem de 03 dias para Cabo Frio',
+        imagem: '../assets/cabofrio.webp'
+
     }
 ];
 
@@ -59,3 +81,8 @@ function mostrarPacotes (lista) {
     })
 
 }
+
+// Mostrar todos os pacotes quando a página carregar
+document.addEventListener('DOMContentLoaded', function() {
+    mostrarPacotes(pacotes);
+});
