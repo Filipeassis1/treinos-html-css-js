@@ -83,6 +83,7 @@ function mostrarPacotes (lista) {
 }
 
 // Mostrar todos os pacotes quando a página carregar
+
 document.addEventListener('DOMContentLoaded', function() {
     mostrarPacotes(pacotes);
 });

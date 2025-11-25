@@ -37,5 +37,31 @@
         margin-left: 1rem;
         margin-bottom: .5rem;
     }
+
+    textarea{
+        background-color: var(--color-ice);
+        border: 1px solid transparent;
+        padding: 1rem .5rem;
+        border-radius: 1rem;
+        margin-bottom: 1.2rem ;
+
+    }
+
+
+    button{
+
+        padding: .5rem 1rem;
+        border: none;
+        background-color: var(--color-primary);
+        color: white;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: background .2s ease;
+    
+        &:hover{
+            background-color: var(--color-primary-hover);
+        }
+
+    }
 }
 
