@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+:root{
+    --color-primary: #4621eb;
+    --color-primary-hover: #4621eb96;
+    --color-ice: #f4f2ff;
+    --color-secondary: #d49726;
+    --color-tertiary: #db5dc6;
+    --color-text: #919090;
+    --color-dark: #060311;
+
+
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-regular: 18px;
+    --font-size-h3: 20px;
+    --font-size-h2: 24px;
+    --font-size-h1: 44px;
+
+}

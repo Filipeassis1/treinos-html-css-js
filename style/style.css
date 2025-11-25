@@ -1,0 +1,9 @@
+@import 'reset.css';
+@import 'grid.css';
+@import 'tipografia.css';
+@import '../style/homepage/header.css';
+@import '../style/homepage/nav.css';
+@import '../style/homepage/main.css';
+@import '../style/homepage/produtos.css';
+@import '../style/homepage/sobre.css';
+@import '../style/homepage/contato.css';

@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+    span{
+        font-weight: bold;
+        color: white;
+    }
+
+
+    ul{
+        display: flex;
+        gap: 2rem;
+
+        li{
+
+            a{
+                color: white;
+                transition: all .3s ease-in-out;
+
+
+                &:hover{
+                    color: rgba(255, 255, 255, 0.658);
+                }
+            }
+        }
+    }
+}
